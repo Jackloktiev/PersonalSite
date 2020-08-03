@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jack Loktiev</title>
+</head>
+<body>
+    <header>
+        <div class="bg-video">
+            <video class="bg-video_content" autoplay muted loop>
+                <source src="./Public/HeaderVideo.mp4" type="video/mp4">
+                    Your browser is not suported
+            </video>
+        </div>
+        <div class="content">
+            <h1>Jack Loktiev</h1>
+            <h2><span class="developer-text">web developer</span></h2>
+        </div>
+
+    </header>
+
+    <nav class="nav-large">
+        <ul>
+            <li><a href="./index.html#projects">Projects</a></li>
+            <li><a href="./index.html#skills">Skills</a></li>
+            <li><a href="./index.html#about">About</a></li>
+            <li><a href="./index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <nav class="nav-small">
+        <div class="nav-background" >
+            <label for="toggle" class="nav-button" id="background">
+                <span class="nav-icon" id="menu-icon">&nbsp;</span>
+            </label>
+        </div>
+        <div class="nav-list" id="nav-list">
+            <ul>
+                <li><a href="./index.html#projects">Projects</a></li>
+                <li><a href="./index.html#skills">Skills</a></li>
+                <li><a href="./index.html#about">About</a></li>
+                <li><a href="./index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="lighter" id="projects">
+        <div class="project_content container">
+            <h2 class="section-heading">Projects</h2>
+            <div class="project_container">
+                <div class="video">
+                    <iframe class="responsive-iframe" src="https://www.youtube.com/embed/wDzZD_YF_Wk" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="project-text">
+                    <h2>Movie finder</h2>
+                    <p>
+                        Movie finder is a simple web application that allows users to search the IMDB database for a specific movie title 
+                        and see the select information on the chosen film. It is built on React and Bootstrap.
+                    </p>
+                    <a href="https://moviesjl.herokuapp.com/" target="blank">Link to the site</a> |
+                    <a href="https://github.com/Jackloktiev/demo-app2" target="blank">Link to GitHub</a>
+    
+                </div>
+            </div>
+
+            <div class="project_container">
+                <div class="video">
+                    <iframe class="responsive-iframe" src="https://www.youtube.com/embed/wDzZD_YF_Wk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="project-text">
+                    <h2>Artist's portfolio</h2>
+                    <p>
+                        This web application allows the young artist to manage a portfolio of her works and showcase them to the desired audience by sharing a link. 
+                        The admin page allows for uploading new pictures and deleting existing ones. It is built on React and Firebase.
+                    </p>
+                    <a href="https://rita-a448c.firebaseapp.com/" target="blank">Link to the site</a> |
+                    <a href="https://github.com/Jackloktiev/rita-react" target="blank">Link to GitHub</a>
+    
+                </div>
+            </div>
+            <a href="./projects.html" class="button">See all projects</a>
+            
+        </div>
+    </section>
+
+    <section class="darker" id="skills">
+        <div class="skills_container container">
+            <h2 class="section-heading">Skills</h2>
+            <div class="skill-wraper">
+                <div class="skill-group">
+                    <h3>Front end</h3>
+                    <ul>
+                        <li>React</li>
+                        <li>JavaScript</li>
+                        <li>D3</li>
+                        <li>CSS Grid</li>
+                        <li>Flex box</li>
+                    </ul>
+                </div>
+        
+                <div class="skill-group">
+                    <h3>Back end</h3>
+                    <ul>
+                        <li>Node JS</li>
+                        <li>Express</li>
+                        <li>Mongo DB</li>
+                        <li>Graph QL</li>
+                        <li>Authentication</li>
+                    </ul>
+                </div>
+
+                <div class="skill-group">
+                    <h3>General</h3>
+                    <ul>
+                        <li>Visual Basic for Applications</li>
+                        <li>AWS</li>
+                        <li>SQL</li>
+                        <li>Critical thinking</li>
+                        <li>Teamwork</li>
+                    </ul>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+
+    <section class="lighter" id="about">
+        <div class="about-container container">
+            <h2 class="section-heading">About</h2>
+            <p class = "about-text">
+                I’m a web developer who creates interactive, responsive, and robust applications. 
+                I specialize in front end development and prefer using React or vanilla JavaScript. 
+                Also, I can operate efficiently in the MERN stack (MongoDB, Express, React, Node). 
+                Being a curious person and fast learner, I keep myself up to date with the latest technologies and best practices. 
+                I believe that web applications are the future of the software and strive to be the best at my craft.
+            </p>
+        </div>
+    </section>
+
+    <section class="darker" id="contact">
+        <div class="contact-container container">
+            <h2 class="section-heading">How to reach me</h2>
+            <a href="mailto:jack.loktiev@gmail.com" class="button">E-mail: jack.loktiev@gmail.com</a>
+            <a href="https://www.linkedin.com/in/jackloktiev/" class="button" target="blank">LinkedIn</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Jack Loktiev &copy 2020</p>
+    </footer>
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
